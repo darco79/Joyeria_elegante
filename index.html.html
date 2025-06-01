@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Joyería Elegante</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+    <h1>Joyería Elegante</h1>
+    <p>Tu lugar para joyas únicas y exclusivas</p>
+    <div id="carrito">🛒 Carrito: <span id="contador-carrito">0</span></div>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+    <section id="productos" class="productos-section">
+        <h2>Nuestros Productos</h2>
+        <div id="lista-productos" class="container"></div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <h2>Contacto</h2>
+        <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required />
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Joyería Elegante. Todos los derechos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
